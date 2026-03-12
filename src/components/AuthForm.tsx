@@ -37,7 +37,7 @@ export default function AuthForm() {
   );
 
   return (
-    <div className="min-h-screen bg-neutral-900 flex items-center justify-center p-4 md:p-8 font-sans overflow-hidden">
+    <div className="min-h-screen bg-white flex items-center justify-center p-4 md:p-8 font-sans overflow-hidden">
       
       {/* DESKTOP VIEW - Sliding Overlay Component */}
       <div className="hidden md:flex relative w-full max-w-[900px] h-[600px] bg-white rounded-3xl shadow-2xl overflow-hidden">
