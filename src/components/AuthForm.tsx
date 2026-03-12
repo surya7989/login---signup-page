@@ -60,12 +60,12 @@ export default function AuthForm() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 leading-tight">
-                  {isLogin ? 'Welcome back to the future of security.' : 'Start your journey with us today.'}
+                  {isLogin ? 'Welcome back.' : 'Start your journey with us today.'}
                 </h2>
                 <p className="text-neutral-300 text-lg max-w-sm">
                   {isLogin 
-                    ? 'Log in to access your personalized dashboard and manage your secure digital assets.' 
-                    : 'Create an account to unlock exclusive features and join our growing community of professionals.'}
+                    ? 'Log in to access your personalized dashboard and manage your account.' 
+                    : 'Create an account to unlock exclusive features and join our growing community.'}
                 </p>
               </motion.div>
             </AnimatePresence>
